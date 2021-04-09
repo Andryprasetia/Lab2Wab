@@ -122,3 +122,29 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 }
 ~~~
 ![Screenshot (40)](https://user-images.githubusercontent.com/81818989/114198227-4905a300-997d-11eb-8236-52bbdc0412f0.png)
+
+# Pertanyaan
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+~~~
+ini adalah ekperimen saya dengan mengubah warna dan menambah kolom properti dan nilai padding pada kode css
+~~~
+![Screenshot (42)](https://user-images.githubusercontent.com/81818989/114206689-c9c89d00-9985-11eb-8a9f-3e0943fb3920.png)
+
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+~~~
+Pendeklarasian CSS elemen h1 mengubah tampilan seluruh elemen yang memiliki tag h1, sedangkan #intro h1 hanya mengubah tampilan elemen h1 yang memiliki id #intro.
+~~~
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+~~~
+Kedua deklarasi tersebut akan tampil, namun selector ID yang akan tampil jika deklarasinya ada yang sama antara ID dan Class.
+~~~
+contoh
+![Screenshot (43)](https://user-images.githubusercontent.com/81818989/114209124-7ad03700-9988-11eb-8c46-5ff5734b11b6.png)
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! `<p id="paragraf-1" class="text-paragraf">`
+~~~
+Perbedaan dari class dan id adalah class di panggil menggunakan tanda titk dan id dengan tanda pagar, jadi kedua deklarasi tetap akan tampil pada browser.
+hanya saya class dapat di berikan pada banyak element html dan dapat di panggil sekaligus, sedangkan id hanya dapat bekerja pada satu penandaan saja
+~~~
+contoh
+![Screenshot (44)](https://user-images.githubusercontent.com/81818989/114212508-1dd68000-998c-11eb-98cb-1316be33cca6.png)
+![Screenshot (45)](https://user-images.githubusercontent.com/81818989/114212536-275fe800-998c-11eb-8ab9-aef90c5cf857.png)
